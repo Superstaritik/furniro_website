@@ -1,5 +1,5 @@
 import React from 'react'
-import callingIcon from '../assets/Calling.svg';
+import callingIcon from '../assets/calling.svg';
 import TrophyIcon from '../assets/highQuality.svg';
 import warrantyIcon from '../assets/warrantyProtection.svg';
 import shippingIcon from '../assets/freeShipping.svg';
