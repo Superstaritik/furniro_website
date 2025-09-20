@@ -379,7 +379,7 @@ const Cards = () => {
 
                         {/* Product Image */}
                         <img
-                            src={`http://localhost:4001${product.imageUrl}`}
+                            src={`https://furniro-website.onrender.com${product.imageUrl}`}
                             alt={product.name}
                             className="object-cover w-full h-48 sm:h-60 md:h-72 transition-transform duration-300 group-hover:scale-105"
                         />
