@@ -16,9 +16,9 @@ const __dirname = path.dirname(__filename);
 
 // यह CORS के लिए सही कॉन्फ़िगरेशन है
 const allowedOrigins = [
-  "http://localhost:5173", // लोकल डेवलपमेंट के लिए
-  "https://furniro-website-seven.vercel.app", // आपका Vercel डिप्लॉयड फ्रंटएंड
-  "https://furniro-website.onrender.com", // आपका Render बैकएंड
+  "http://localhost:5173",
+  process.env.FRONTEND_URL,
+  "https://furniro-websitee.netlify.app",
 ];
 
 // CORS मिडलवेयर को कॉन्फ़िगर करें
@@ -35,7 +35,7 @@ app.use(cors({
   allowedHeaders: ["Content-Type", "Authorization"],
 }))
 
-// आपके बैकएंड के रूट्स
+
 app.use("/images", express.static(path.join(__dirname, "public/images")));
 app.use(express.json());
 
