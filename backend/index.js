@@ -19,6 +19,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   process.env.FRONTEND_URL,
   "https://furniro-websitee.netlify.app",
+    "https://furniro-website-wyky.onrender.com",
 ];
 
 // CORS मिडलवेयर को कॉन्फ़िगर करें
